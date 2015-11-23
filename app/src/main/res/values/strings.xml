@@ -5,4 +5,5 @@
     <string name="title_activity_solicitud_prestamo_detail">SolicitudPrestamoDetailActivity</string>
     <string name="title_activity_registrar_solicitud_prestamo">RegistrarSolicitudPrestamoActivity
     </string>
+    <string name="title_activity_list_acciones_compradas">ListAccionesCompradasActivity</string>
 </resources>

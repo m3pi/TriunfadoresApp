@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Acciones"
-            android:onClick=""/>
+            android:onClick="openListAccionesCompradas"/>
 
         <Button
             android:id="@+id/btn_Ver_Estado_Prestamos"

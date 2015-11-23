@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/tv_Fecha"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/tv_Estado" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:text="S/."
+            android:textSize="40px"
+            android:id="@+id/tv_Soles" />
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="50dp"
+            android:text="New Text"
+            android:textSize="40px"
+            android:id="@+id/tv_Total" />
+    </LinearLayout>
+
+</LinearLayout>

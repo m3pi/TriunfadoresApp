@@ -35,6 +35,11 @@
             android:label="@string/title_activity_registrar_solicitud_prestamo"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".ListAccionesCompradasActivity"
+            android:label="@string/title_activity_list_acciones_compradas"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

@@ -74,7 +74,7 @@ public class SolicitudesPrestamosActivity extends AppCompatActivity {
         List<SolicitudPrestamo> posts=new ArrayList<>();
         //URLConnection
         HttpClient httpClient=new DefaultHttpClient();
-        HttpGet httpGet=new HttpGet("http://192.168.56.1/Triunfadores.Api/api/SolicitudesPrestamos");
+        HttpGet httpGet=new HttpGet("http://192.168.43.91/TriunfadoresApi/api/SolicitudesPrestamos");
 
         try{
             HttpResponse httpResponse=httpClient.execute(httpGet);
