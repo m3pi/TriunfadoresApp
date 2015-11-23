@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_registrar_solicitud_prestamo"
+    tools:context="imerosa.triunfadoresapp.RegistrarSolicitudPrestamoActivity">
+
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/etv_Dni_Cliente"
+                android:hint="Ingrese dni del cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buscar"/>
+
+            <EditText
+                android:hint="Cliente"
+                android:id="@+id/etv_Cliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="Ingrese la cantidiad"
+            android:id="@+id/etv_Cantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="Ingrese la tasa de interes"
+            android:id="@+id/etv_Tasa_Interes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="Ingrese Tipo de Pago"
+            android:id="@+id/etv_Tipo_Pago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:text="10/11/2015"
+            android:id="@+id/etv_Fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/etv_Comentario"
+            android:hint="Ingrese un comentario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar"/>
+    </LinearLayout>
+
+</RelativeLayout>

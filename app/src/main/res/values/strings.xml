@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TriunfadoresApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_solicitudes_prestamos">SolicitudesPrestamosActivity</string>
+    <string name="title_activity_solicitud_prestamo_detail">SolicitudPrestamoDetailActivity</string>
+    <string name="title_activity_registrar_solicitud_prestamo">RegistrarSolicitudPrestamoActivity
+    </string>
+</resources>
